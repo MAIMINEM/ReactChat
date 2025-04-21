@@ -29,7 +29,49 @@ const Chat = () => {
         </div>
       </div>
 
-      <div className="center"></div>
+      <div className="center">
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>
+              asdfljaskdf asdlfkjaskld asdlfkjaskldasdfljaskdf asdlfkjaskld asdlfkjaskldasdfljaskdf asdlfkjaskld
+              asdlfkjaskld asdfljaskdf asdlfkjaskld asdlfkjaskld asdfljaskdf asdlfkjaskld asdlfkjaskld{" "}
+            </p>
+            <span>15 mins ago </span>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>asdfljaskdf asdlfkjaskld asdlfkjaskld </p>
+            <span>15 mins ago </span>
+          </div>
+        </div>
+
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>asdfljaskdf asdlfkjaskld asdlfkjaskld </p>
+            <span>15 mins ago </span>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <img
+              src="https://res.cloudinary.com/project-casting/image/upload/x_55,y_0,w_491,h_747,c_crop/v1674105461/0076BSS5ly8gzhdhgy1ooj30u011dwhc_ay30zc.jpg"
+              alt=""
+            />
+            <p>asdfljaskdf asdlfkjaskld asdlfkjaskld </p>
+            <span>15 mins ago </span>
+          </div>
+        </div>
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>asdfljaskdf asdlfkjaskld asdlfkjaskld </p>
+            <span>15 mins ago </span>
+          </div>
+        </div>
+      </div>
 
       <div className="bottom">
         <div className="icons">
